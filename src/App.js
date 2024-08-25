@@ -4,6 +4,7 @@ import './App.css';
 const generateDeck = () => {
   const colors = ['#FF6347', '#4682B4', '#32CD32', '#FFD700', '#FF69B4', '#8A2BE2'];
   const deck = [];
+
   // Каждому цвету добавляем две карточки
   for (let color of colors) {
     deck.push({ color, matched: false });
